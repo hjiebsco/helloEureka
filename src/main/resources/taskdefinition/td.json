@@ -1,9 +1,9 @@
 {  
-   "family":"spike-zuul-helloEureka-task",
+   "family":"spike-hello-eureka-task",
    "containerDefinitions":[  
       {  
-         "name":"spike-zuul-helloEureka-container",
-         "image":"186926840374.dkr.ecr.us-east-1.amazonaws.com/spike/zuul/helloeureka",
+         "name":"spike-hello-eureka-container",
+         "image":"186926840374.dkr.ecr.us-east-1.amazonaws.com/spike/hello/eureka",
          "cpu":10,
          "memory":300,
          "portMappings":[  

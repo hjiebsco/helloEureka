@@ -1,0 +1,18 @@
+{  
+   "family":"spike-zuul-helloEureka-task",
+   "containerDefinitions":[  
+      {  
+         "name":"spike-zuul-helloEureka-container",
+         "image":"186926840374.dkr.ecr.us-east-1.amazonaws.com/spike/zuul/helloeureka",
+         "cpu":10,
+         "memory":300,
+         "portMappings":[  
+            {  
+               "hostPort":8761,
+               "containerPort":8761,
+               "protocol":"tcp"
+            }
+         ]
+      }
+   ]
+}

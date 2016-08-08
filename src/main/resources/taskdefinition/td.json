@@ -1,8 +1,8 @@
 {  
-   "family":"spike-hello-eureka-task",
+   "family":"spike-hello-eureka",
    "containerDefinitions":[  
       {  
-         "name":"spike-hello-eureka-container",
+         "name":"spike-hello-eureka",
          "image":"186926840374.dkr.ecr.us-east-1.amazonaws.com/spike/hello/eureka",
          "cpu":10,
          "memory":300,

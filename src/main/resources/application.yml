@@ -8,6 +8,9 @@ server:
 eureka:
   server:
     enableSelfPreservation: false
+    eIPBindRebindRetries: 0
+    eIPBindingRetryIntervalMs: 2147483647
+    eIPBindingRetryIntervalMsWhenUnbound: 2147483647
   instance:
     hostname: localhost
   client: 
